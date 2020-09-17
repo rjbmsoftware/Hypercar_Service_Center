@@ -1,0 +1,8 @@
+{% extends "tickets/base.html" %}
+{% block title %} - {{ ticket_type }}{% endblock %}
+{% block content %}
+    <div>
+        <div>Your number is {{ place_in_queue }}</div>
+        <div>Please wait around {{ waiting_time }} minutes</div>
+    </div>
+{% endblock %}
